@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Espace client · Pivotek Anjou</title>
+  <script>
+    // Welcome links open the presentation toolbar; embedded and standalone screens keep their own view.
+    if (window.self === window.top && !new URLSearchParams(location.search).has('view') &&
+        ['', '#', '#/', '#/welcome'].includes(location.hash)) {
+      location.replace('ecrans/01.1-accueil.html');
+    }
+  </script>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="assets/wireframes.css?v=20261021-dashboard-2">
+  <link rel="stylesheet" href="assets/structure.css?v=20261021-dashboard-2">
+  <link rel="stylesheet" href="assets/brand.css?v=20261021-dashboard-2">
+  <script defer src="assets/coverage.js?v=20261021-dashboard-2"></script>
+  <script defer src="assets/catalogue.js?v=20261021-dashboard-2"></script>
+  <script defer src="assets/core.js?v=20261021-dashboard-2"></script>
+  <script defer src="assets/views-base.js?v=20261021-dashboard-2"></script>
+  <script defer src="assets/views.js?v=20261021-dashboard-2"></script>
+  <link rel="stylesheet" href="assets/dashboard.css?v=20261021-tower-2">
+  <script defer src="assets/project-visual.js?v=20261021-tower-2"></script>
+  <script defer src="assets/dashboard.js?v=20261021-tower-2"></script>
+  <script defer src="assets/workbench.js?v=20261021-dashboard-2"></script>
+  <script defer src="assets/app.js?v=20261021-dashboard-2"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+  <div id="app"></div>
+  <div id="live" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="dialog"></dialog>
+  <noscript>Activez JavaScript pour accéder à votre espace client.</noscript>
+</body>
+</html>
